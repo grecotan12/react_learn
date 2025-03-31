@@ -1,0 +1,26 @@
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+let reviews: number[] = [5, 5, 4.5, 1, 3];
+
+let total: number = 0;
+
+for (let i = 0; i < reviews.length; i++) {
+    console.log(reviews[i]);
+    total += reviews[i];
+}
+
+let average: number =  total / reviews.length;
+
+console.log("Review average: " + average);
+
+let sports: string[] = ["Soccer", "Basketball", "Weightlifting"];
+for (let sport of sports) {
+    console.log(sport);
+}
+
+sports.push("Football");
+for (let sport of sports) {
+    console.log(sport);
+}
